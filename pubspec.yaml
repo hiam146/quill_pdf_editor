@@ -1,8 +1,9 @@
 name: quill_pdf_editor
 description: "A Flutter package that edits Quill content and exports it as PDF."
 version: 0.0.1
-homepage:
-
+homepage: https://github.com/hiam146/quill_pdf_editor
+repository: https://github.com/hiam146/quill_pdf_editor
+issue_tracker: https://github.com/hiam146/quill_pdf_editor/issues
 environment:
   sdk: ^3.8.1
   flutter: ">=1.17.0"
@@ -17,13 +18,11 @@ dependencies:
   path_provider:
   open_filex:
 
-
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # To add assets to your package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

@@ -13,9 +13,7 @@ The package is designed as a reusable editor widget where PDF generation, saving
 - Optional title field with full styling control
 - Export Quill content directly to PDF
 - Preview PDF before saving
-- Automatic file naming with suffix support
-- Handles duplicate file names safely
-- Loader indicator during PDF generation
+- Automatic file naming
 - Fully configurable UI (toolbar, editor, buttons)
 - Designed as a clean, reusable package
 

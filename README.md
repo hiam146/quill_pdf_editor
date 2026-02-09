@@ -91,10 +91,10 @@ A complete working example is available in the `/example` directory.
 ## Additional Information
 
 - Repository:
-  [https://github.com/USERNAME/quill_pdf_editor](https://github.com/USERNAME/quill_pdf_editor)
+  [https://github.com/hiam146/quill_pdf_editor](https://github.com/hiam146/quill_pdf_editor)
 
 - Issue tracker:
-  [https://github.com/USERNAME/quill_pdf_editor/issues](https://github.com/USERNAME/quill_pdf_editor/issues)
+  [https://github.com/hiam146/quill_pdf_editor/issues](https://github.com/hiam146/quill_pdf_editor/issues)
 
 - Contributions are welcome via pull requests.
 

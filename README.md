@@ -1,5 +1,24 @@
-````md
 # quill_pdf_editor
+
+<p align="center">
+  <img src="assets/images/preview1.png" width="400" />
+</p>
+
+<p align="center">
+  <strong>Editor Execution Preview</strong><br/>
+  This image shows the live execution of the editor provided by the library.
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="assets/images/preview2.png" width="400" />
+</p>
+
+<p align="center">
+  <strong>PDF Export Preview</strong><br/>
+  This image shows the generated PDF file after exporting the editor content.
+</p>
 
 A Flutter package that provides a rich text editor based on **flutter_quill** with built-in **PDF export and preview** support.  
 The package is designed as a reusable editor widget where PDF generation, saving, and preview logic are fully handled internally by the package.
@@ -27,7 +46,6 @@ Add the dependency to your `pubspec.yaml`:
 dependencies:
   quill_pdf_editor: ^1.0.0
 ```
-````
 
 Then run:
 
@@ -75,7 +93,6 @@ You can customize the editor using `QuillPdfEditorConfig`:
 - Editor padding, background color, and shadows
 - Title field styling and alignment
 - Custom preview and save buttons
-- File name suffix
 - PDF preview and export toggles
 
 ---

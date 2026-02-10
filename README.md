@@ -1,5 +1,8 @@
 # quill_pdf_editor
 
+A Flutter package that provides a rich text editor based on **flutter_quill** with built-in **PDF export and preview** support.  
+The package is designed as a reusable editor widget where PDF generation, saving, and preview logic are fully handled internally by the package.
+
 <p align="center">
   <img src="assets/images/preview1.png" width="400" />
 </p>
@@ -19,9 +22,6 @@
   <strong>PDF Export Preview</strong><br/>
   This image shows the generated PDF file after exporting the editor content.
 </p>
-
-A Flutter package that provides a rich text editor based on **flutter_quill** with built-in **PDF export and preview** support.  
-The package is designed as a reusable editor widget where PDF generation, saving, and preview logic are fully handled internally by the package.
 
 ---
 

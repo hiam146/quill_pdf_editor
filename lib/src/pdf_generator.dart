@@ -8,7 +8,10 @@ import 'package:pdf/widgets.dart' as pw;
 import 'package:path_provider/path_provider.dart';
 import 'package:open_filex/open_filex.dart';
 
+/// Callback triggered when a PDF is successfully generated.
 typedef PdfGeneratedCallback = void Function(pw.Document pdf);
+
+/// Callback triggered after the PDF export process is completed.
 typedef PdfExportCompletedCallback = void Function(Uint8List pdfBytes);
 
 class QuillPdfGenerator {
@@ -51,7 +54,9 @@ class QuillPdfGenerator {
 
     final regular = await rootBundle.load('assets/fonts/NotoSans-Regular.ttf');
     final bold = await rootBundle.load('assets/fonts/NotoSans-Bold.ttf');
-    final boldItalic = await rootBundle.load('assets/fonts/NotoSans-BoldItalic.ttf');
+    final boldItalic = await rootBundle.load(
+      'assets/fonts/NotoSans-BoldItalic.ttf',
+    );
     final italic = await rootBundle.load('assets/fonts/NotoSans-Italic.ttf');
 
     return {
@@ -71,7 +76,10 @@ class QuillPdfGenerator {
     return 12.0;
   }
 
-  pw.TextStyle _getTextStyle(Map<String, dynamic> attrs, Map<String, pw.Font> fonts) {
+  pw.TextStyle _getTextStyle(
+    Map<String, dynamic> attrs,
+    Map<String, pw.Font> fonts,
+  ) {
     final isBold = attrs['bold'] == true;
     final isItalic = attrs['italic'] == true;
 
@@ -231,7 +239,9 @@ class QuillPdfGenerator {
             }
             if (i < parts.length - 1) {
               if (attrs['list'] == 'ordered') {
-                widgets.add(await _buildLine(lineSpans, attrs, fonts, orderedListIndex++));
+                widgets.add(
+                  await _buildLine(lineSpans, attrs, fonts, orderedListIndex++),
+                );
               } else {
                 orderedListIndex = 1;
                 widgets.add(await _buildLine(lineSpans, attrs, fonts, null));

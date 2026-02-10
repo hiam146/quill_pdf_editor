@@ -8,10 +8,19 @@ import 'controller.dart';
 import 'editor_config.dart';
 import 'pdf_generator.dart';
 
+/// A rich text editor widget with built-in PDF export and preview support.
+///
+/// This widget encapsulates editing, PDF generation, file saving,
+/// and preview logic internally, requiring no additional setup
+/// from the consuming application.
 class QuillPdfEditor extends StatefulWidget {
   final QuillPdfEditorController? controller;
   final QuillPdfEditorConfig config;
 
+  /// Creates a [QuillPdfEditor] widget.
+  ///
+  /// The [config] parameter controls the editor behavior,
+  /// appearance, and PDF export options.
   const QuillPdfEditor({
     super.key,
     this.controller,
@@ -67,7 +76,7 @@ class _QuillPdfEditorState extends State<QuillPdfEditor> {
             margin: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
             padding: const EdgeInsets.all(8),
             decoration: BoxDecoration(
-              color: widget.config.toolbarBackgroundColor, 
+              color: widget.config.toolbarBackgroundColor,
               borderRadius: BorderRadius.circular(widget.config.borderRadius),
               boxShadow: widget.config.toolbarShadow,
             ),

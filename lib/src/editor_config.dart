@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 
 enum QuillToolbarVerticalPosition { top, bottom }
 
+/// Configuration options for [QuillPdfEditor].
+///
+/// Allows customization of the editor UI, toolbar,
+/// title field, and PDF export behavior.
 class QuillPdfEditorConfig {
   final bool enablePdfPreview;
   final bool enablePdfExport;

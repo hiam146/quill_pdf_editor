@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// Defines available positions for the editor toolbar.
 enum QuillToolbarVerticalPosition { top, bottom }
 
 /// Configuration options for [QuillPdfEditor].

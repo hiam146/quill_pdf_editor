@@ -1,6 +1,6 @@
 name: quill_pdf_editor
 description: "A Flutter package that edits Quill content and exports it as PDF."
-version: 1.0.1
+version: 2.0.1
 homepage: https://github.com/hiam146/quill_pdf_editor
 repository: https://github.com/hiam146/quill_pdf_editor
 issue_tracker: https://github.com/hiam146/quill_pdf_editor/issues

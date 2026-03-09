@@ -1,6 +1,8 @@
 ## 3.0.1
 
-- Add New `toolbarIconColor` property in `QuillPdfEditorConfig` that allows developers to customize the toolbar icon color.
+### Added
+
+- New `toolbarIconColor` property in `QuillPdfEditorConfig` that allows developers to customize the toolbar icon color.
 
 ## 2.0.1
 

@@ -44,7 +44,7 @@ Add the dependency to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  quill_pdf_editor: ^1.0.0
+  quill_pdf_editor: ^3.0.1
 ```
 
 Then run:

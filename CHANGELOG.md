@@ -1,3 +1,7 @@
+## 3.0.1
+
+- Add New `toolbarIconColor` property in `QuillPdfEditorConfig` that allows developers to customize the toolbar icon color.
+
 ## 2.0.1
 
 - Add missing dartdoc comments to public API to improve documentation score
@@ -12,4 +16,4 @@
 
 ## 0.0.1
 
-- TODO: Describe initial release.
+- initial release.

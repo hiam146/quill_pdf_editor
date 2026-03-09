@@ -21,6 +21,7 @@ class QuillPdfEditorConfig {
   final Color editorBackgroundColor;
   final double editorPadding;
   final List<BoxShadow> editorShadow;
+  final Color toolbarIconColor;
 
   // Title
   final bool showTitleField;
@@ -43,6 +44,8 @@ class QuillPdfEditorConfig {
     this.toolbarShadow = const [
       BoxShadow(color: Colors.black12, blurRadius: 5),
     ],
+    this.toolbarIconColor = Colors.black,
+
     this.editorBackgroundColor = Colors.white,
     this.editorPadding = 30,
     this.editorShadow = const [

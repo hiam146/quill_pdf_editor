@@ -80,16 +80,22 @@ class _QuillPdfEditorState extends State<QuillPdfEditor> {
               borderRadius: BorderRadius.circular(widget.config.borderRadius),
               boxShadow: widget.config.toolbarShadow,
             ),
-            child: QuillSimpleToolbar(
-              controller: _controller.quillController,
-              config: QuillSimpleToolbarConfig(
-                showFontFamily: false,
-                showFontSize: true,
-                showAlignmentButtons: true,
-                multiRowsDisplay: false,
-                showUndo: false,
-                showRedo: false,
-                showDividers: true,
+            child: Theme(
+              data: Theme.of(context).copyWith(
+                iconTheme: IconThemeData(color: widget.config.toolbarIconColor),
+              ),
+              child: QuillSimpleToolbar(
+                controller: _controller.quillController,
+                config: QuillSimpleToolbarConfig(
+                  showFontFamily: false,
+                  showFontSize: true,
+                  showAlignmentButtons: true,
+
+                  multiRowsDisplay: false,
+                  showUndo: false,
+                  showRedo: false,
+                  showDividers: true,
+                ),
               ),
             ),
           ),

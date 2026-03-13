@@ -40,10 +40,12 @@ The package is designed as a reusable editor widget where PDF generation, saving
 
 ## Getting Started
 
-Add the package using the following command:
+### Installation
 
-````bash
-$ flutter pub add quill_pdf_editor
+Add the package to your project:
+
+```bash
+flutter pub add quill_pdf_editor
 
 ---
 ## Usage

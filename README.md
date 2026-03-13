@@ -47,7 +47,8 @@ Add the package to your project:
 ```bash
 flutter pub add quill_pdf_editor
 
----
+````
+```bash
 ## Usage
 
 ```dart

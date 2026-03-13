@@ -37,22 +37,12 @@ The package is designed as a reusable editor widget where PDF generation, saving
 - Designed as a clean, reusable package
 
 ---
-
 ## Getting Started
 
-Add the dependency to your `pubspec.yaml`:
-
-```yaml
-dependencies:
-  quill_pdf_editor: ^3.0.1
-```
-
-Then run:
+Add the package using the following command:
 
 ```bash
-flutter pub get
-```
-
+$ flutter pub add quill_pdf_editor
 ---
 
 ## Usage

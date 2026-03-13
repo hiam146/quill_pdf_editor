@@ -37,13 +37,14 @@ The package is designed as a reusable editor widget where PDF generation, saving
 - Designed as a clean, reusable package
 
 ---
+
 ## Getting Started
 
 Add the package using the following command:
 
-```bash
+````bash
 $ flutter pub add quill_pdf_editor
----
+
 
 ## Usage
 
@@ -69,7 +70,7 @@ class MyEditorPage extends StatelessWidget {
     );
   }
 }
-```
+````
 
 The package internally manages PDF generation, file saving, preview handling, and loading state. No additional logic is required from the user.
 
